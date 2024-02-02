@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <!-- Display section for word categories -->
+    <section id="wordCategories">
+        <div class="category">
+            <h2>Nouns</h2>
+            <ul id="nounsList"></ul>
+        </div>
+
+        <div class="category">
+            <h2>Verbs</h2>
+            <ul id="verbsList"></ul>
+        </div>
+
+        <div class="category">
+            <h2>Adjectives</h2>
+            <ul id="adjectivesList"></ul>
+        </div>
+
+        <div class="category">
+            <h2>Pronouns</h2>
+            <ul id="pronounsList"></ul>
+        </div>
+
+        <div class="category">
+            <h2>Places</h2>
+            <ul id="placesList"></ul>
+        </div>
+    </section>
+		
+
+	<div class="button-container">
+<button class="category-button" id="generateNounButton">Generate Noun</button>
+<button class="category-button" id="generateVerbButton">Generate Verb</button>
+<button class="category-button" id="generateAdjectiveButton">Generate Adjective</button>
+<button class="category-button" id="generatePronounButton">Generate Pronoun</button>
+<button class="category-button" id="generatePlaceButton">Generate Place</button>
+	</div>
+
+    <!-- Buttons for random phrase generation and speaking -->
+    <button id="generateButton">Generate Random Phrase</button>
+    <button id="speakButton">Speak Phrase</button>
+
+    <!-- Display area for the generated phrase -->
+    <p id="generatedPhrase"></p>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
